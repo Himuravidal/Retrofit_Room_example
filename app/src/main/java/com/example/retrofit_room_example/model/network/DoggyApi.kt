@@ -10,7 +10,6 @@ import retrofit2.http.Path
 
 interface DoggyApi {
 
-
     @GET("breeds/list")
     suspend fun fetchAllBreeds(): Response<Breed>
 
